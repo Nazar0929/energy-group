@@ -1,0 +1,52 @@
+.why {
+    padding-top: 115px;
+    padding-bottom: 90px;
+    text-align: center;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),  url(../img/backphotoss.jpg);
+    
+            background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    
+    overflow: hidden;
+
+    &__text {
+        margin-top: 30px;
+        margin-bottom: 45px;
+            font-size: 16px;
+    line-height: 1.5;
+    color: #fff;
+    }
+
+    &__title {
+            font-size: 36px;
+    line-height: 1.1;
+    color: #ff5000;
+    font-weight: 900;
+    letter-spacing: 2px;
+    font-family: Gilroy, sans-serif;
+    }
+
+    &__but {
+        cursor: pointer;
+    text-align: center;
+    background-color: #ff5000;
+    border-radius: 80px;
+    font-size: 18px;
+    line-height: 24px;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: .5px;
+    padding: 13px 40px;
+    outline: 0;
+    border: 2px solid #ff5000;
+    width: max-content;
+    min-width: 220px;
+    transition: background-color 0.4s ease;
+    }
+
+    &__but:hover {
+        background-color: black;
+    }
+}

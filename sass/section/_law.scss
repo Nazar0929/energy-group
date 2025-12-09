@@ -1,0 +1,147 @@
+.law {
+background: #1E252B;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    &__img {
+        width: 80px;
+        border-radius: 50%;
+    }
+
+    &__imgg {
+        width: 80px;
+        border-radius: 50%;
+        border: 5px solid grey;
+
+    }
+    &__list {
+        display: block;
+        
+
+    @media screen and (min-width:1280px) {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+    }
+.law__list .law__item:nth-child(2) {
+    margin-top: 20px;
+  margin-bottom: 20px;
+
+    @media screen and (min-width:1280px) {
+    margin-top: 0px;
+  margin-bottom: 0px;
+    }
+
+}
+
+
+
+.law__list .law__item:nth-child(2):hover {
+    margin-top: -10px;
+}
+
+
+    &__title {
+        margin-top: 15px;
+        margin-bottom: 16px;
+        color: rgba(255, 255, 255, 0.78)
+    }
+
+    &__pishka {
+        color: rgba(255, 255, 255, 0.78)
+    }
+
+
+    &__span {
+        font-size: 18px;
+        color: rgba(255, 255, 255, 0.78)
+    }
+
+    &__hed {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+
+    &__tetring {
+        margin-top: 20px;
+    }
+
+
+&__item {
+  width: 100%;
+  border-radius: 24px;
+  padding: 25px;
+background: #1E252B;
+  box-shadow: 0px 8px 30px 0px rgba(0, 0, 0, 0.1);
+  transition: margin-top 0.4s ease;
+  border: 2px solid transparent; // ← начальный "невидимый" бордер
+  background-image: none;
+
+
+    @media screen and (min-width:1280px) {
+        width: 393px;
+    }
+}
+
+&__item:hover {
+border-radius: 24px;
+
+
+background: rgba(40, 47, 53, 0.6);
+
+backdrop-filter: blur(25px);
+  background-image: url(../img/maskgroup.png);
+  background-position: right;
+      background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    margin-top: -10px;
+}
+
+
+&__boxing {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    //     @media screen and (min-width:1280px) {
+    //     width: 393px;
+    // }
+
+}
+
+&__worry {
+    color: #FFA537;
+font-family: "Poppins" sans-serif;
+font-size:18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+
+
+&__but {
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    color: #fff;
+    font-weight: 700;
+    justify-content: center;
+    align-items: center;
+    background: #ff5000;
+    border-radius: 48px;
+    padding: 6px 32px;
+
+}
+&__wrap {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+}
+

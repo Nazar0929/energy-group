@@ -1,0 +1,288 @@
+.backdrop.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+
+.backdrop.is-hidden .modal {
+  transform: translate(-50%, -50%) scale(0.6);
+}
+
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 200;
+  background-color: rgba(0, 0, 0, 0.459);
+  opacity: 1;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+
+
+  &__modal {
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transform: translate(-50%, -50%) scale(1);
+    position: relative;
+    padding: 40px;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    border-radius: 15px;
+    outline: 2px solid #515151;
+    background: black;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12),
+      0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
+      width: 98%;
+      height: 85%;
+
+
+      @media screen and (min-width: 480px) {
+        width: 450px;
+        height: 609px;
+      }
+
+    
+      @media screen and (min-width: 1200px) {
+        width: 528px;
+        height: 600px;
+      }
+
+  }
+
+
+  &__title {
+    margin-bottom: 12px;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: calc(30 / 20);
+    letter-spacing: 0.6px;
+
+    @media screen and (min-width: 1200px) {
+      line-height: calc(23 / 20);
+    }
+  }
+
+  &__label {
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.12px;
+    display: block;
+    margin-bottom: 4px;
+  }
+  
+
+  &__wrapper {
+    position: relative;
+  }
+  &__input {
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 40px;
+    color: #fff;
+    border-radius: 4px;
+    outline: 1px solid rgb(255, 255, 255);
+    border: none;
+    background-color: rgb(0, 0, 0);
+
+    transition-property: outline;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+      padding-right: 41px;
+      padding-left: 41px;
+      border: none;
+    outline: 1px solid #ff5000;
+
+    }
+
+
+  }
+
+  &__icon {
+    position: absolute;
+    top: 11px;
+    left: 12px;
+    width: 18px;
+    height: 18px;
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  &__comment {
+    display: block;
+    margin-bottom: 4px;
+
+    font-size: 12px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.12px;
+  }
+
+  &__text {
+  
+    resize: none;
+    width: 100%;
+    height: 120px;
+    padding: 12px 16px;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.12px;
+    border-radius: 4px;
+    outline: 1px solid rgb(255, 255, 255);
+    background-color: black;
+    transition-property: outline;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    border: none;
+
+
+    &:hover,
+    &:focus {
+    outline: 1px solid #ff5000;
+
+    }
+  }
+
+  &__wrapperr {
+    justify-content: center;
+    margin-top: 20px;
+    display: block;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+
+    @media screen and (min-width: 480px) {
+      display: flex;
+    }
+	
+    @media screen and (min-width: 1200px) {
+      font-size: 14px;
+    }
+
+  
+  }
+
+  &__box {
+    width: 16px;
+    height: 15px;
+  }
+
+  &__checked {
+    color: #757575;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 24px; /* 171.429% */
+    letter-spacing: 0.42px;
+    font-family: "Roboto";
+
+    
+    @media screen and (min-width: 1200px) {
+      font-size: 14px;
+      line-height: 1.71;
+    }
+  }
+
+  &__links {
+
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #ff5000;
+    letter-spacing: 0.42px;
+    text-decoration-line: underline;
+
+    
+    @media screen and (min-width: 1200px) {
+      font-size: 14px;
+      line-height: 1.71;
+    }
+  }
+
+  .ds {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__button {
+    color: #fff;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; /* 187.5% */
+    letter-spacing: 0.96px;
+    padding: 10px 52px;
+    border-radius: 4px;
+    background-color: #ff5000;;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    border: none;
+    margin-top: 30px;
+    transition-property: background;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+
+    &:hover,
+    &:focus {
+      border: none;
+      outline: 0px solid red;
+
+    }
+  }
+
+  &__closee {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border-radius: 50%;
+    border: none;
+    outline: 1px solid rgb(255, 255, 255);
+    transition-property: fill, outline;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+    outline: 1px solid #ff5000;
+
+      .backdrop__close {
+        transform: rotate(180deg);
+      } 
+            .backdrop__close {
+        transform: rotate(180deg);
+      } 
+    }
+  }
+
+  &__close {
+    width: 18px;
+    height: 18px;
+    transition:  transform 0.4s ease;
+  }
+}
+
+
+  
+

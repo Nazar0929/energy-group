@@ -1,0 +1,24 @@
+.container {
+    max-width: 1250px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    // outline: 2px red solid;
+
+
+
+      @media screen and (min-width: 480px) {
+            width: 480px;
+            padding: 0 20px;
+          }
+
+    @media screen and (min-width:768px) {
+        width: 768px;
+    }
+
+    @media screen and (min-width:1280px) {
+       width: 1280px;
+    }
+}
+

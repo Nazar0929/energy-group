@@ -1,0 +1,81 @@
+.abo {
+    padding-top: 90px;
+    padding-bottom: 90px;
+        background: #1e252b;
+
+    &__title {
+            font-size: 48px;
+    line-height: 1.6;
+    font-weight: 900;
+    margin-bottom: 40px;
+    color: #ff5000;
+    }
+
+&__img {
+  width: 370px;
+  animation: spinY 7s linear infinite;
+  transform-style: preserve-3d; // важно для 3D
+}
+
+@keyframes spinY {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+
+
+    &__box {
+        display: block;
+        align-items: center;
+        justify-content: space-between;
+
+        
+        @media screen and (min-width:1280px) {
+          display: flex;
+
+      }
+    }
+
+    &__wrap {
+        width: 100%;
+    background: #2b343c;
+    padding: 20px 30px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+
+            @media screen and (min-width:1280px) {
+        width: 550px;
+        margin-bottom: 0px;
+
+      }
+    }
+
+    &__tyt {
+      display: flex;
+      justify-content: center;
+
+                  @media screen and (min-width:1280px) {
+                    display: block;
+
+      }
+    }
+
+    &__text {
+        margin-top: 20px;
+        color: white;
+    }
+
+    &__texts {
+            display: block;
+    font-size: 36px;
+    line-height: 1.1;
+    color: #ff5000;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-family: Gilroy, sans-serif;
+    margin-bottom: 40px;
+    } 
+}

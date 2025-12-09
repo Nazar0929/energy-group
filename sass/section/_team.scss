@@ -1,0 +1,74 @@
+.team {
+    padding-top: 90px;
+    padding-bottom: 90px;
+        background-color: #232b32;
+
+    &__title {
+            display: block;
+    font-size: 36px;
+    line-height: 1.1;
+    color: #ff5000;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-family: Gilroy, sans-serif;
+    margin-bottom: 40px;
+    }
+
+    &__image {
+        width: 400px;
+          animation: spinY 7s linear infinite;
+  transform-style: preserve-3d; // важно для 3D
+    }
+
+    @keyframes spinY {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+&__boxing {
+  display: flex;
+  flex-direction: column-reverse; // ⬅️ для телефона: текст сверху, картинка снизу
+  align-items: center;
+  justify-content: space-between;
+
+  @media screen and (min-width: 1280px) {
+    flex-direction: row; // ⬅️ на десктопе всё по старому
+    align-items: flex-start;
+  }
+}
+
+
+    &__desc {
+        color: white;
+        margin-top: 20px;
+    }
+
+    &__imagee {
+        display: flex;
+        justify-content: center;
+
+                        @media screen and (min-width:1280px) {
+
+        display: block;
+      }
+    }
+
+    &__wraps {
+            background: #2b343c;
+    padding: 20px 30px;
+
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 30px;
+
+                @media screen and (min-width:1280px) {
+                        width: 550px;
+                        margin-bottom: 0px;
+
+      }
+    }
+
+}

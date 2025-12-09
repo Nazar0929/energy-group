@@ -1,0 +1,133 @@
+.serv {
+    padding-top: 115px;
+    padding-bottom: 90px;
+    background-color: #232b32;
+
+
+    &__title {
+            font-size: 48px;
+    line-height: 1.6;
+        color: #ff5000;
+        font-family: "Montserrat";
+        font-weight: 800;
+        margin-bottom: 40px;
+    }
+
+    &__list {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+                display: flex;
+        flex-direction: column;
+        gap: 30px;
+
+            @media screen and (min-width:768px) {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+                @media screen and (min-width:1280px) {
+        display: flex;
+                flex-direction: row;
+        gap: 0px;
+    }
+    }
+
+.serv {
+  &__item {
+    position: relative;
+    padding: 28px 40px;
+    width: 100%;
+    height: 100%;
+    background: #2b343c;
+    box-shadow: 0 20px 36px rgba(0, 0, 0, .1);
+    overflow: hidden;
+    transition: all 0.4s ease;
+
+    
+            @media screen and (min-width:768px) {
+    width: 550px;
+    height: 291px;
+        padding: 48px 60px;
+    }
+
+    &::before,
+    &::after {
+      content: "";
+      position: absolute;
+      height: 3px;
+      background-color: #ff5000;
+      width: 0%;
+      transition: width 0.4s ease;
+    }
+
+    &::before {
+      top: 0;
+      left: 0;
+    }
+
+    &::after {
+      bottom: 0;
+      right: 0;
+    }
+
+    &:hover::before,
+    &:hover::after {
+      width: 100%;
+    }
+
+    // боковые линии
+    & .border-left,
+    & .border-right {
+      content: "";
+      position: absolute;
+      width: 3px;
+      height: 0%;
+      background-color: #ff5000;
+      transition: height 0.4s ease;
+    }
+
+    & .border-left {
+      left: 0;
+      top: 0;
+    }
+
+    & .border-right {
+      right: 0;
+      bottom: 0;
+    }
+
+    &:hover .border-left,
+    &:hover .border-right {
+      height: 100%;
+    }
+
+}
+
+}
+
+
+
+    &__li {
+
+    position: relative; // ВАЖНО: чтобы before позиционировался относительно <li>
+
+    &::before {
+      content: '';
+      background: #ff5000;
+      position: absolute;
+      height: 2px;
+      width: 12px;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+    }}
+
+    &__describ {
+        margin-top: 20px;
+        color: #fff;
+        font-weight: 500;
+         padding-left: 20px; // отступ текста, чтобы не налезал на линию
+    }
+}

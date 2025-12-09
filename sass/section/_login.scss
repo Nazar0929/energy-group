@@ -1,0 +1,50 @@
+.login {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #232b32;
+  &__top {
+    font-size: 38px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 20px;
+  }
+
+  &__bottom {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-family: Inter, Arial, sans-serif;
+  }
+
+  &__brand {
+    font-size: 16px;
+    font-weight: 600;
+    color: #9b9b9b;
+  }
+
+  &__btn {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    background: none;
+    border: none;
+    padding: 0;
+    font-size: 15px;
+    font-weight: 600;
+    color: #9b9b9b;
+    cursor: pointer;
+
+    &:hover {
+      opacity: 0.75;
+    }
+  }
+
+  &__arrow {
+    display: flex;
+
+    svg {
+      display: block;
+      stroke: currentColor;
+    }
+  }
+}
