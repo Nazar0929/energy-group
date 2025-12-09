@@ -1287,6 +1287,7 @@ html {
   }
 }
 .con__frame {
+  margin-top: 30px;
   background: #1e252b;
   border-radius: 16px;
   border: 5px solid rgba(255, 80, 0, 0.4);
@@ -1308,7 +1309,6 @@ html {
 }
 .con__fr {
   width: 100%;
-  margin-top: 30px;
   border-radius: 12px;
   border: 2px solid #ff5000;
   filter: drop-shadow(0 0 10px rgba(255, 80, 0, 0.25));
