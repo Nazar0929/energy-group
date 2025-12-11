@@ -16,7 +16,7 @@
   gap: var(--gap);
   padding: 10px 20px;
   background: #fff;
-  border-bottom: 1px solid #e6e6e6;
+
 }
 
 .contact-group,
@@ -38,24 +38,25 @@
   width: 18px;
   height: 18px;
   display: flex;
-  color: black;
+  color: #1c2aaa;
   align-items: center;
   justify-content: center;
 }
 
 .contact-item .text {
-  color: #111;
+  color: #1e266d;
   font-weight: 600;
   display: none;
 
       @media screen and (min-width:1280px) {
         display: flex;
+        
       }
 
 }
 
 .contact-item .texts {
-  color: #111;
+  color: #1e266d;
   font-size: 12px;
   font-weight: 700;
         @media screen and (min-width:1280px) {
@@ -78,7 +79,7 @@
   background: transparent;
   border: 1px solid transparent;
   font-weight: 600;
-  color: var(--accent);
+  color: #1e266d;
   cursor: pointer;
      font-size: 11px;
   transition: background .15s, transform .1s, box-shadow .15s;
@@ -114,8 +115,9 @@
 
 .header {
 padding-top: 15px;
+  border-top: 2px solid #e6e6e6;
 padding-bottom: 15px;
-background-color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);
     position: sticky;
     top: 0;
     left: 0;
@@ -131,7 +133,7 @@ background-color: rgb(0, 0, 0);
     font-family: 'Montserrat', 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 23px;
-    background: linear-gradient(to right, #ffffff 50%, #ff5000 50%);
+    background: linear-gradient(to right, #273081 50%, #000000 50%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-transform: uppercase;
@@ -151,12 +153,16 @@ background-color: rgb(0, 0, 0);
         display: flex;
       }
     }
+&__links {
+  color: #1e266d;
+  font-weight: 700;
 
-    &__links {
-      color: #ff5000;
-      font-weight: 500;
-      
-    }
+  &:hover,
+  &:focus {
+    color: #161c52;
+  }
+}
+
 
     &__wrap {
       display: flex;
@@ -188,14 +194,14 @@ background-color: rgb(0, 0, 0);
     display: block;
     cursor: pointer;
     text-align: center;
-    background-color: #ff5000;
+    background-color: #1F223D;
     -webkit-border-radius: 80px;
     border-radius: 80px;
     line-height: 24px;
     color: #fff;
     font-weight: 700;
     outline: 0;
-    border: 2px solid #ff5000;
+    border: 2px solid #1F223D;
     display: none;
     transition: background-color 0.4s ease, color 0.4s ease;
 
@@ -206,7 +212,7 @@ background-color: rgb(0, 0, 0);
 
     &__but:hover {
       background-color: #000000;
-      color: #ff5000;
+      color: #dfdfdf;
     }
     
     &__buttons {

@@ -93,7 +93,6 @@ html {
   gap: var(--gap);
   padding: 10px 20px;
   background: #fff;
-  border-bottom: 1px solid #e6e6e6;
 }
 
 .contact-group,
@@ -115,13 +114,13 @@ html {
   width: 18px;
   height: 18px;
   display: flex;
-  color: black;
+  color: #1c2aaa;
   align-items: center;
   justify-content: center;
 }
 
 .contact-item .text {
-  color: #111;
+  color: #1e266d;
   font-weight: 600;
   display: none;
 }
@@ -132,7 +131,7 @@ html {
 }
 
 .contact-item .texts {
-  color: #111;
+  color: #1e266d;
   font-size: 12px;
   font-weight: 700;
 }
@@ -157,7 +156,7 @@ html {
   background: transparent;
   border: 1px solid transparent;
   font-weight: 600;
-  color: var(--accent);
+  color: #1e266d;
   cursor: pointer;
   font-size: 11px;
   transition: background 0.15s, transform 0.1s, box-shadow 0.15s;
@@ -191,8 +190,9 @@ html {
 }
 .header {
   padding-top: 15px;
+  border-top: 2px solid #e6e6e6;
   padding-bottom: 15px;
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
   position: sticky;
   top: 0;
   left: 0;
@@ -206,7 +206,7 @@ html {
   font-family: "Montserrat", "Roboto", sans-serif;
   font-weight: 700;
   font-size: 23px;
-  background: linear-gradient(to right, #ffffff 50%, #ff5000 50%);
+  background: linear-gradient(to right, #273081 50%, #000000 50%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-transform: uppercase;
@@ -226,8 +226,11 @@ html {
   }
 }
 .header__links {
-  color: #ff5000;
-  font-weight: 500;
+  color: #1e266d;
+  font-weight: 700;
+}
+.header__links:hover, .header__links:focus {
+  color: #161c52;
 }
 .header__wrap {
   display: flex;
@@ -256,13 +259,13 @@ html {
   display: block;
   cursor: pointer;
   text-align: center;
-  background-color: #ff5000;
+  background-color: #1F223D;
   border-radius: 80px;
   line-height: 24px;
   color: #fff;
   font-weight: 700;
   outline: 0;
-  border: 2px solid #ff5000;
+  border: 2px solid #1F223D;
   display: none;
   transition: background-color 0.4s ease, color 0.4s ease;
 }
@@ -273,7 +276,7 @@ html {
 }
 .header__but:hover {
   background-color: #000000;
-  color: #ff5000;
+  color: #dfdfdf;
 }
 .header__buttons {
   width: 38px;
@@ -364,7 +367,7 @@ html {
 }
 
 .hero {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/electric.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/offfic.jpg);
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: rgb(0, 0, 0);
@@ -429,8 +432,8 @@ html {
   font-weight: 300;
   font-size: 14px;
   line-height: 32px;
-  border-left: 4px solid #ff5000;
-  border-right: 4px solid #ff5000;
+  border-left: 4px solid #1F223D;
+  border-right: 4px solid #1F223D;
   margin-right: auto;
   margin-left: auto;
 }
@@ -473,18 +476,18 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #fff;
-  font-weight: 400;
+  color: #000000;
+  font-weight: 700;
   gap: 10px;
   height: 40px;
   width: 100%;
-  background: #665cac;
+  background: #ffffff;
   transform: scale(1);
   transition: transform 0.3s ease;
 }
 @media screen and (min-width: 768px) {
   .hero__link {
-    width: 210px;
+    width: 100%;
     gap: 19px;
   }
 }
@@ -500,18 +503,19 @@ html {
 }
 
 .law {
-  background: #1E252B;
+  background: #1F223D;
   padding-top: 80px;
   padding-bottom: 80px;
 }
 .law__img {
   width: 80px;
+  height: 80px;
   border-radius: 50%;
 }
 .law__imgg {
   width: 80px;
+  height: 80px;
   border-radius: 50%;
-  border: 5px solid grey;
 }
 .law__list {
   display: block;
@@ -539,14 +543,14 @@ html {
 .law__title {
   margin-top: 15px;
   margin-bottom: 16px;
-  color: rgba(255, 255, 255, 0.78);
+  color: #1e266d;
 }
 .law__pishka {
-  color: rgba(255, 255, 255, 0.78);
+  color: #1e266d;
 }
 .law__span {
   font-size: 18px;
-  color: rgba(255, 255, 255, 0.78);
+  color: #1e266d;
 }
 .law__hed {
   margin-top: 20px;
@@ -559,7 +563,7 @@ html {
   width: 100%;
   border-radius: 24px;
   padding: 25px;
-  background: #1E252B;
+  background: #ffffff;
   box-shadow: 0px 8px 30px 0px rgba(0, 0, 0, 0.1);
   transition: margin-top 0.4s ease;
   border: 2px solid transparent;
@@ -572,10 +576,10 @@ html {
 }
 .law__item:hover {
   border-radius: 24px;
-  background: rgba(40, 47, 53, 0.6);
+  background: rgb(255, 255, 255);
   -webkit-backdrop-filter: blur(25px);
           backdrop-filter: blur(25px);
-  background-image: url(../img/maskgroup.png);
+  background-image: url();
   background-position: right;
   background-repeat: no-repeat;
   background-size: cover;
@@ -590,7 +594,7 @@ html {
   margin-right: auto;
 }
 .law__worry {
-  color: #FFA537;
+  color: #1e266d;
   font-family: "Poppins" sans-serif;
   font-size: 18px;
   font-style: normal;

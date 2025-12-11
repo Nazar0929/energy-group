@@ -1,16 +1,18 @@
 .law {
-background: #1E252B;
+background: #1F223D;
     padding-top: 80px;
     padding-bottom: 80px;
     &__img {
         width: 80px;
+        height: 80px;
         border-radius: 50%;
     }
 
     &__imgg {
         width: 80px;
+        height: 80px;
         border-radius: 50%;
-        border: 5px solid grey;
+
 
     }
     &__list {
@@ -44,17 +46,17 @@ background: #1E252B;
     &__title {
         margin-top: 15px;
         margin-bottom: 16px;
-        color: rgba(255, 255, 255, 0.78)
+        color: #1e266d;
     }
 
     &__pishka {
-        color: rgba(255, 255, 255, 0.78)
+        color: #1e266d;
     }
 
 
     &__span {
         font-size: 18px;
-        color: rgba(255, 255, 255, 0.78)
+        color: #1e266d;
     }
 
     &__hed {
@@ -72,7 +74,7 @@ background: #1E252B;
   width: 100%;
   border-radius: 24px;
   padding: 25px;
-background: #1E252B;
+background: #ffffff;
   box-shadow: 0px 8px 30px 0px rgba(0, 0, 0, 0.1);
   transition: margin-top 0.4s ease;
   border: 2px solid transparent; // ← начальный "невидимый" бордер
@@ -88,10 +90,10 @@ background: #1E252B;
 border-radius: 24px;
 
 
-background: rgba(40, 47, 53, 0.6);
+background: rgb(255, 255, 255);
 
 backdrop-filter: blur(25px);
-  background-image: url(../img/maskgroup.png);
+  background-image: url();
   background-position: right;
       background-repeat: no-repeat;
     background-size: cover;
@@ -115,7 +117,7 @@ backdrop-filter: blur(25px);
 }
 
 &__worry {
-    color: #FFA537;
+    color: #1e266d;
 font-family: "Poppins" sans-serif;
 font-size:18px;
 font-style: normal;

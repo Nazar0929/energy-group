@@ -1,5 +1,5 @@
 .hero {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/electric.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/offfic.jpg);
     padding-top: 60px;
     padding-bottom: 60px;
     background-color: rgb(0, 0, 0);
@@ -63,8 +63,8 @@
         font-weight: 300;
         font-size: 14px;
         line-height: 32px;
-        border-left: 4px solid #ff5000;
-        border-right: 4px solid #ff5000;
+        border-left: 4px solid #1F223D;
+        border-right: 4px solid #1F223D;
         margin-right: auto;
         margin-left: auto;
 
@@ -107,17 +107,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #fff;
-  font-weight: 400;
+  color: #000000;
+  font-weight: 700;
   gap: 10px;
   height: 40px;
   width: 100%;
-  background: #665cac;
+  background: #ffffff;
   transform: scale(1);
   transition: transform 0.3s ease; // Додай плавність
 
   @media screen and (min-width: 768px) {
-    width: 210px;
+    width: 100%;
     gap: 19px;
   }
 
