@@ -1,11 +1,11 @@
 .head {
-    background: #1E252B;
+    background: #1f223d;
     padding-top: 35px;
     padding-bottom: 35px;
 
 
     &__title {
-            color: #ff5000;
+            color: #ffffff;
     font-weight: 900;
     letter-spacing: 2px;
         font-size: 32px;
@@ -142,7 +142,10 @@
     transform: translateY(-50%);
     width: 32px;
     height: 32px;
-    background: url(../img/download.png) center no-repeat;
+    background: url(../../img/downloadicon.png) center no-repeat;
+    background-color: #fff;
+    border-radius: 50%;
+    outline: 2px solid black;
     background-size: contain;
     z-index: 2;
   }
@@ -156,24 +159,24 @@
     & > *::before, & > *::after {
       content: '';
       position: absolute;
-      background-color: #ff5000;
+      background-color: #ffffff;
     }
 
     &::before { top: 0; left: 0; width: 2px; height: 100%; animation: borderLoopVertical 2.5s linear infinite 0s; }
     &::after  { top: 0; left: 0; height: 2px; width: 100%; animation: borderLoopHorizontal 2.5s linear infinite 0.625s; }
 
     & > span.right-line,
-    & > div.right-line { position: absolute; top: 0; right: 0; width: 2px; height: 100%; background-color: #ff5000; animation: borderLoopVertical 2.5s linear infinite 1.25s; content: ''; }
+    & > div.right-line { position: absolute; top: 0; right: 0; width: 2px; height: 100%; background-color: #ffffff; animation: borderLoopVertical 2.5s linear infinite 1.25s; content: ''; }
 
     & > span.bottom-line,
-    & > div.bottom-line { position: absolute; bottom: 0; left: 0; height: 2px; width: 100%; background-color: #ff5000; animation: borderLoopHorizontal 2.5s linear infinite 1.875s; content: ''; }
+    & > div.bottom-line { position: absolute; bottom: 0; left: 0; height: 2px; width: 100%; background-color: #ffffff; animation: borderLoopHorizontal 2.5s linear infinite 1.875s; content: ''; }
   }
 
-  &::before { content: ''; position: absolute; top: 0; left: 0; height: 2px; width: 100%; background-color: #ff5000; opacity: 0.2; z-index: 1; }
+  &::before { content: ''; position: absolute; top: 0; left: 0; height: 2px; width: 100%; background-color: #ffffff; opacity: 0.2; z-index: 1; }
 
   &:hover {
     transform: translateY(-3px); /* піднімаємо блок */
-    box-shadow: 0 4px 20px rgba(255, 80, 0, 0.3); /* легка тінь */
+    box-shadow: 0 4px 20px rgba(88, 88, 88, 0.3); /* легка тінь */
   }
 
   &:active { transform: scale(0.95); }
@@ -192,7 +195,7 @@
 
 .head--group2 .head__item {
   background: #0d0d0d;
-  border: 1px solid rgba(255, 80, 0, 0.45);
+  border: 1px solid rgba(255, 255, 255, 0.45);
   color: #fff;
   border-radius: 10px;
   padding: 28px 26px;
@@ -207,14 +210,17 @@
     transform: translateY(-50%);
     width: 32px;
     height: 32px;
-    background: url(../img/download.png) center no-repeat;
+    background: url(../../img/downloadicon.png) center no-repeat;
+    background-color: #fff;
+    border-radius: 50%;
+    outline: 2px solid black;
     background-size: contain;
     z-index: 2;
   }
 
   &:hover {
     background: linear-gradient(90deg, #0c0c0c, #1a1a1a);
-    box-shadow: 0 0 20px rgba(255, 80, 0, 0.45);
+    box-shadow: 0 0 20px rgba(165, 165, 165, 0.45);
     transform: translateY(-3px);
   }
 }
@@ -246,14 +252,17 @@
     transform: translateY(-50%);
     width: 32px;
     height: 32px;
-    background: url(../img/download.png) center no-repeat;
+    background: url(../../img/downloadicon.png) center no-repeat;
+    background-color: #fff;
+    border-radius: 50%;
+    outline: 2px solid black;
     background-size: contain;
     z-index: 2;
   }
 
   &:hover {
-    border-color: #ff5000;
-    box-shadow: 0 0 25px rgba(255, 80, 0, 0.5);
+    border-color: #dadada;
+    box-shadow: 0 0 25px rgba(190, 190, 190, 0.5);
     transform: translateY(-4px);
   }
 }

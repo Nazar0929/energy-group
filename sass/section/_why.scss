@@ -11,6 +11,19 @@
     
     overflow: hidden;
 
+    &__namess {
+            font-family: 'Montserrat', 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 23px;
+    background: linear-gradient(to right, #f3f3f3 50%, #1c2aaa 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.3);
+    }
+
+
     &__text {
         margin-top: 30px;
         margin-bottom: 45px;
@@ -31,7 +44,7 @@
     &__but {
         cursor: pointer;
     text-align: center;
-    background-color: #ff5000;
+    background-color: #1f223d;
     border-radius: 80px;
     font-size: 18px;
     line-height: 24px;
@@ -40,7 +53,7 @@
     letter-spacing: .5px;
     padding: 13px 40px;
     outline: 0;
-    border: 2px solid #ff5000;
+    border: 2px solid #1f223d;
     width: max-content;
     min-width: 220px;
     transition: background-color 0.4s ease;

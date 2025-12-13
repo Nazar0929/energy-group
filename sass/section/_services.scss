@@ -7,7 +7,7 @@
     &__title {
             font-size: 48px;
     line-height: 1.6;
-        color: #ff5000;
+        color: #fafafa;
         font-family: "Montserrat";
         font-weight: 800;
         margin-bottom: 40px;
@@ -57,7 +57,7 @@
       content: "";
       position: absolute;
       height: 3px;
-      background-color: #ff5000;
+      background-color: #1f223d;
       width: 0%;
       transition: width 0.4s ease;
     }
@@ -70,6 +70,7 @@
     &::after {
       bottom: 0;
       right: 0;
+      
     }
 
     &:hover::before,
@@ -84,7 +85,7 @@
       position: absolute;
       width: 3px;
       height: 0%;
-      background-color: #ff5000;
+      background-color: #1f223d;
       transition: height 0.4s ease;
     }
 
@@ -115,7 +116,7 @@
 
     &::before {
       content: '';
-      background: #ff5000;
+      background: #ffffff;
       position: absolute;
       height: 2px;
       width: 12px;

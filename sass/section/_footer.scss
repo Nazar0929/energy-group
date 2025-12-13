@@ -1,6 +1,6 @@
 .footer {
-    background-color: #000;
-    border-top: 8px solid #ff5000;
+    background-color: #1f223d;
+    border-top: 8px solid #ffffff;
 padding-bottom: 20px;
     padding-top: 53px;
 
@@ -32,7 +32,7 @@ padding-bottom: 20px;
     font-family: 'Montserrat', 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 22px;
-    background: linear-gradient(to right, #ffffff 50%, #ff5000 50%);
+    background: linear-gradient(to right, #ffffff 50%, #ffffff 50%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-transform: uppercase;
@@ -42,9 +42,9 @@ padding-bottom: 20px;
     }
 
     &__text {
-        color: #fff;
+        color: #BDBEC8;
         font-size: 16px;
-        font-weight: 700;
+        font-weight: 500;
         margin-top: 25px;
         margin-bottom: 25px;
         display: block;
@@ -100,7 +100,7 @@ padding-bottom: 20px;
 &__page {
     font-size: 16px;
         line-height: 1.1;
-    color: #ff5000;
+    color: #ffffff;
     font-weight: 700;
     letter-spacing: 2px;
     font-family: Gilroy, sans-serif;
@@ -109,7 +109,7 @@ padding-bottom: 20px;
 
 
 &__textings {
-    color: #fff;
+    color: #BDBEC8;
     margin-top: 15px;
     font-size: 14px;
 
