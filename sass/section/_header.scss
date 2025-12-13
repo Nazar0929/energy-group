@@ -142,6 +142,21 @@ background-color: rgb(255, 255, 255);
 
     }
 
+
+    
+    &__namess {
+    font-family: 'Montserrat', 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 23px;
+    background: linear-gradient(to right, #273081 50%, #ffffff 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.3);
+    margin-bottom: 20px;
+
+    }
     &__list {
       display: flex;
       align-items: center;
@@ -263,7 +278,7 @@ background-color: rgb(255, 255, 255);
 }
 
     &__hre {
-    color: #ff5000;
+    color: #ffffff;
     }
 
     &__logos {
@@ -278,13 +293,14 @@ background-color: rgb(255, 255, 255);
       padding: 4px 20px;
     cursor: pointer;
     text-align: center;
-    background-color: #ff5000;
+    background-color: #1f223d;
     border-radius: 80px;
     line-height: 24px;
     color: #fff;
+    margin-top: 30px;
     font-weight: 700;
     outline: 0;
-    border: 2px solid #ff5000;
+    border: 2px solid #f6f6f6;
 
 
 }
