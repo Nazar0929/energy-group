@@ -872,7 +872,7 @@ html {
   transform: translateY(-50%);
   width: 32px;
   height: 32px;
-  background: url(../../img/downloadicon.png) center no-repeat;
+  background: url(../img/downloadicon.png) center no-repeat;
   background-color: #fff;
   border-radius: 50%;
   outline: 2px solid black;
@@ -969,7 +969,7 @@ html {
   transform: translateY(-50%);
   width: 32px;
   height: 32px;
-  background: url(../../img/downloadicon.png) center no-repeat;
+  background: url(../img/downloadicon.png) center no-repeat;
   background-color: #fff;
   border-radius: 50%;
   outline: 2px solid black;
@@ -1005,7 +1005,7 @@ html {
   transform: translateY(-50%);
   width: 32px;
   height: 32px;
-  background: url(../../img/downloadicon.png) center no-repeat;
+  background: url(../img/downloadicon.png) center no-repeat;
   background-color: #fff;
   border-radius: 50%;
   outline: 2px solid black;
@@ -1105,7 +1105,7 @@ html {
   transform: translateY(-50%);
   width: 32px;
   height: 32px;
-  background: url(../../img/downloadicon.png) center no-repeat;
+  background: url(../img/downloadicon.png) center no-repeat;
   background-color: #fff;
   border-radius: 50%;
   outline: 2px solid black;
